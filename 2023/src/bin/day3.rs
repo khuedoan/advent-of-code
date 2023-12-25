@@ -29,7 +29,7 @@ fn has_adjacent_symbol(input: Vec<String>, x_left: usize, x_right: usize, y: usi
 }
 
 fn main() {
-    let input_file = fs::File::open("./input").unwrap();
+    let input_file = fs::File::open("./input/day3").unwrap();
     let reader = BufReader::new(input_file);
     let lines: Vec<String> = reader
         .lines()

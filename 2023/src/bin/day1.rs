@@ -24,7 +24,7 @@ fn main() {
     //
     // In this example, the calibration values of these four lines are 12, 38, 15, and 77. Adding these together produces 142.
     // Consider your entire calibration document. What is the sum of all of the calibration values?
-    let input_file = fs::File::open("./input").unwrap();
+    let input_file = fs::File::open("./input/day1").unwrap();
     let reader = BufReader::new(input_file);
     let mut sum = 0;
 

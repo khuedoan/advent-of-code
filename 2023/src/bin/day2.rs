@@ -82,7 +82,7 @@ impl From<String> for Game {
 }
 
 fn main() {
-    let input_file = fs::File::open("./input").unwrap();
+    let input_file = fs::File::open("./input/day2").unwrap();
     let reader = BufReader::new(input_file);
     let mut id_sum = 0;
 
